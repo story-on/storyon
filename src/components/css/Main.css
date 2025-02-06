@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    height: calc(100vh - 0vw);
+    /* height: calc(100vh - 119.15px); */
+    font-family: 'Ghanachocolate';
+    font-size: 4vw;
+    text-align: center;
+    overflow-y: hidden;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: blue;
+    margin: 2%;
+    width: 96%;
+}
+
+.logo_layout {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1; */
+    height: 30%;
+    background-color: aquamarine;
+}
+
+.logo_img {
+    width: 25%;
+}
+
+.page_layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 21px;
+    background-color: beige;
+}
