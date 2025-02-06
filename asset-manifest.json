@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/storyon/static/css/main.3824f202.css",
+    "main.js": "/storyon/static/js/main.78dfb2f3.js",
+    "static/media/main_logo.png": "/storyon/static/media/main_logo.2fe4e36257962775b207.png",
+    "index.html": "/storyon/index.html",
+    "main.3824f202.css.map": "/storyon/static/css/main.3824f202.css.map",
+    "main.78dfb2f3.js.map": "/storyon/static/js/main.78dfb2f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3824f202.css",
+    "static/js/main.78dfb2f3.js"
+  ]
+}
