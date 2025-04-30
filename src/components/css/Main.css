@@ -6,7 +6,6 @@ header {
     font-size: 4vw;
     text-align: center;
     overflow-y: hidden;
-    background-color: antiquewhite;
 }
 
 .container {
@@ -19,25 +18,36 @@ header {
 }
 
 .logo_layout {
-    background-color: aquamarine;
+    margin-top: 3vh;
+    height: 100%;
+    background: url('../img/main_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    object-fit: cover;
+    /* https://inpa.tistory.com/entry/CSS-%F0%9F%93%9A-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%B9%84%EC%9C%A8-%EB%A7%9E%EC%B6%94%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95-object-fit-background-size-position */
 }
-
-/* .logo_img {
-    position: absolute;
-    width: 70%;
-    transform: translate(-50%, -15%);
-} */
 
 .logo_layout img {
     width: 20%;
 }
 
 .page_layout{
+    margin-top: 32%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    font-size: 21px;
+    font-size: 1.6vw;
     background-color: beige;
+    height: 8.5vh;
+    margin-right: 2vw;
+}
+
+.page_layout .link_text {
+    margin: 0 3.5vw 0 3.5vw;
+    text-decoration-line: none;
+    color: #3e9e01;
+    font-family: 'jejuGothic';
 }

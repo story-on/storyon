@@ -9,18 +9,17 @@ function Main() {
             <header>
                 <div class="container">
                     <div class="logo_layout">
-                        <img className="logo_img" src={logo} />
-                    </div>
-                    <div className="page_layout">
-                        <NavLink to='.info'> {/* link 뒤에 /storyon_info 추가됨*/}
-                            <div>Story ON?</div>
-                        </NavLink>
-                        <NavLink to='coach_info'> {/* link 뒤에 /coach_info 추가됨*/}
-                            <div>강사 소개</div>
-                        </NavLink>
-                        <NavLink to='notice'> {/* link 뒤에 /notice 추가됨*/}
-                            <div>공지사항</div>
-                        </NavLink>
+                        <div className="page_layout">
+                            <NavLink className="link_text" to='.info'> {/* link 뒤에 /storyon_info 추가됨*/}
+                                <p>Story ON?</p>
+                            </NavLink>
+                            <NavLink className="link_text" to='coach_info'> {/* link 뒤에 /coach_info 추가됨*/}
+                                <p>강사 소개</p>
+                            </NavLink>
+                            <NavLink className="link_text" to='notice'> {/* link 뒤에 /notice 추가됨*/}
+                                <p>공지사항</p>
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
             </header>
